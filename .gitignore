@@ -1,4 +1,5 @@
 .yarn/*
+.yarn/
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
@@ -15,3 +16,7 @@
 # configurations
 .editorconfig
 .gitattributes
+
+node_modules/
+.env
+test*/

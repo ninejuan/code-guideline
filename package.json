@@ -6,10 +6,15 @@
     "email": "iam@juany.dev",
     "url": "https://juany.dev"
   },
+  "scripts": {
+    "base": "yarn workspace @ninejuan/code-guideline-base",
+    "test": "yarn workspace @ninejuan/cg-test",
+    "nest": "yarn workspace @ninejuan/code-guideline-nest"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ninejuan/code-guideline.git"
+    "url": "https://github.com//code-guideline.git"
   },
   "packageManager": "yarn@4.3.1",
   "workspaces": [
