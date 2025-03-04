@@ -397,6 +397,40 @@ __metadata:
 "@ninejuan/code-guideline-nest@workspace:packages/nest":
   version: 0.0.0-use.local
   resolution: "@ninejuan/code-guideline-nest@workspace:packages/nest"
+  dependencies:
+    "@stylistic/eslint-plugin": "npm:^3.0.1"
+    "@typescript-eslint/eslint-plugin": "npm:^8.22.0"
+    "@typescript-eslint/parser": "npm:^8.22.0"
+    eslint: "npm:^9.21.0"
+    eslint-plugin-import: "npm:^2.31.0"
+    eslint-plugin-import-newlines: "npm:^1.4.0"
+    eslint-plugin-newline-destructuring: "npm:^1.2.2"
+    eslint-plugin-simple-import-sort: "npm:^12.1.1"
+    eslint-plugin-unused-imports: "npm:^4.1.4"
+    rimraf: "npm:^6.0.1"
+    tsup: "npm:^8.4.0"
+  peerDependencies:
+    eslint: ^9.19.0
+  languageName: unknown
+  linkType: soft
+
+"@ninejuan/code-guideline-react@workspace:packages/react":
+  version: 0.0.0-use.local
+  resolution: "@ninejuan/code-guideline-react@workspace:packages/react"
+  dependencies:
+    "@stylistic/eslint-plugin": "npm:^3.0.1"
+    "@typescript-eslint/eslint-plugin": "npm:^8.22.0"
+    "@typescript-eslint/parser": "npm:^8.22.0"
+    eslint: "npm:^9.21.0"
+    eslint-plugin-import: "npm:^2.31.0"
+    eslint-plugin-import-newlines: "npm:^1.4.0"
+    eslint-plugin-newline-destructuring: "npm:^1.2.2"
+    eslint-plugin-simple-import-sort: "npm:^12.1.1"
+    eslint-plugin-unused-imports: "npm:^4.1.4"
+    rimraf: "npm:^6.0.1"
+    tsup: "npm:^8.4.0"
+  peerDependencies:
+    eslint: ^9.19.0
   languageName: unknown
   linkType: soft
 

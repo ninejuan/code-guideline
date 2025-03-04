@@ -1,7 +1,7 @@
 {
-  "name": "@ninejuan/code-guideline-base",
+  "name": "@ninejuan/code-guideline-react",
   "version": "0.0.1",
-  "description": "JuanLee's Base Code-guideline",
+  "description": "JuanLee's Code-guideline for React",
   "packageManager": "yarn@4.3.1",
   "author": {
     "name": "Juan Lee",

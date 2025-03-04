@@ -8,8 +8,9 @@
   },
   "scripts": {
     "base": "yarn workspace @ninejuan/code-guideline-base",
-    "test": "yarn workspace @ninejuan/cg-test",
-    "nest": "yarn workspace @ninejuan/code-guideline-nest"
+    "nest": "yarn workspace @ninejuan/code-guideline-nest",
+    "react": "yarn workspace @ninejuan/code-guideline-react",
+    "test": "yarn workspace @ninejuan/cg-test"
   },
   "license": "MIT",
   "repository": {

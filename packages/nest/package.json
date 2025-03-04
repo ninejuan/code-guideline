@@ -1,4 +1,37 @@
 {
   "name": "@ninejuan/code-guideline-nest",
-  "packageManager": "yarn@4.3.1"
+  "version": "0.0.1",
+  "description": "JuanLee's Code-guideline for NestJs",
+  "packageManager": "yarn@4.3.1",
+  "author": {
+    "name": "Juan Lee",
+    "email": "iam@juany.dev",
+    "url": "https://juany.dev"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsup"
+  },
+  "devDependencies": {
+    "eslint": "^9.21.0",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.4.0"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^3.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.22.0",
+    "@typescript-eslint/parser": "^8.22.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import-newlines": "^1.4.0",
+    "eslint-plugin-newline-destructuring": "^1.2.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.1.4"
+  },
+  "peerDependencies": {
+    "eslint": "^9.19.0"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs"
+    }
+  }
 }
