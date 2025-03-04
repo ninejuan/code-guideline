@@ -1,4 +1,5 @@
 import styleConfig from "./rules/style.mjs";
+import restrictConfig from "./rules/restrict.mjs";
 import tsParser from "@typescript-eslint/parser";
 
 /**
@@ -15,5 +16,6 @@ const config = [
     ignores: ["**/node_modules/**", "**/dist/**", "**/*yarn/**", "**/build/**"],
   },
   styleConfig,
+  ...restrictConfig,
 ];
 export default config;

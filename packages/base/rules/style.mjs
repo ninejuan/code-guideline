@@ -56,6 +56,17 @@ const styleConfig = {
         after: true,
       },
     ],
+    "@stylistic/implicit-arrow-linebreak": ["error", "beside"],
+    "@stylistic/indent": [
+      "error",
+      2,
+      {
+        SwitchCase: 1,
+        MemberExpression: 1,
+      },
+    ],
+    "@stylistic/indent-binary-ops": ["error", 2],
+    
   },
 };
 
