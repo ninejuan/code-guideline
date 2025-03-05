@@ -17,6 +17,7 @@
     "tsup": "^8.4.0"
   },
   "dependencies": {
+    "@ninejuan/code-guideline-base": "workspace:*",
     "@stylistic/eslint-plugin": "^3.0.1",
     "@typescript-eslint/eslint-plugin": "^8.22.0",
     "@typescript-eslint/parser": "^8.22.0",

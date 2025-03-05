@@ -7,7 +7,6 @@ const styleConfig = {
   plugins: {
     "@stylistic": stylistic,
   },
-  files: ["**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}"],
   rules: {
     "@stylistic/array-bracket-newline": [
       "error",
@@ -66,7 +65,6 @@ const styleConfig = {
       },
     ],
     "@stylistic/indent-binary-ops": ["error", 2],
-    
   },
 };
 

@@ -10,7 +10,8 @@
     "base": "yarn workspace @ninejuan/code-guideline-base",
     "nest": "yarn workspace @ninejuan/code-guideline-nest",
     "react": "yarn workspace @ninejuan/code-guideline-react",
-    "test": "yarn workspace @ninejuan/cg-test"
+    "test": "yarn workspace @ninejuan/cg-test",
+    "testr": "yarn workspace @ninejuan/test-react"
   },
   "license": "MIT",
   "repository": {

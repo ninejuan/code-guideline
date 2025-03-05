@@ -13,6 +13,7 @@ const config = [
       parser: tsParser,
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
+    files: ["**/*.{js,jsx,mjs,cjs,ts,tsx,mts,cts}"],
     ignores: ["**/node_modules/**", "**/dist/**", "**/*yarn/**", "**/build/**"],
   },
   styleConfig,
